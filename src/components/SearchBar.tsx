@@ -8,8 +8,8 @@ interface SearchBarProps {
 
 export const SearchBar = ({ value, onChange }: SearchBarProps) => {
   return (
-    <div className="relative w-full max-w-md mx-auto">
-      <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+    <div className="relative w-full max-w-md mx-auto px-4 sm:px-0">
+      <Search className="absolute left-7 sm:left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
       <Input
         type="text"
         placeholder="Buscar produtos..."

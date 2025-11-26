@@ -20,11 +20,11 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Header onOpenCart={() => setIsCartOpen(true)} />
 
-      <main className="flex-1">
+      <main className="flex-1 w-full">
         <Hero />
 
-        <section id="produtos" className="py-12 md:py-20">
-          <div className="container space-y-8">
+        <section id="produtos" className="py-8 md:py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl space-y-8">
             <div className="space-y-6">
               <SearchBar value={searchQuery} onChange={setSearchQuery} />
               <CategoryFilter
