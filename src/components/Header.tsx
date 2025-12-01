@@ -44,7 +44,7 @@ export const Header = ({ onOpenCart }: HeaderProps) => {
         <Button
           variant="outline"
           size="icon"
-          className="relative"
+          className="relative cursor-pointer"
           onClick={onOpenCart}
         >
           <ShoppingCart className="h-5 w-5" />
